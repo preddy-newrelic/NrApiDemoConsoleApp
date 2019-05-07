@@ -10,6 +10,11 @@ namespace NrApiDemoConsoleApp
     {
         static void Main(string[] args)
         {
+            BusinessLogic bl = new BusinessLogic();
+            for (int i=0; i < 1000; i++)
+            {
+                bl.DoSomething(i);
+            }
         }
     }
 }
